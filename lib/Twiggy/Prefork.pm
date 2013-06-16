@@ -37,7 +37,7 @@ To use it, instead of the usual:
 
 install L<Server::Starter> and use:
 
-    start_server --port 8111 plackup --server Twiggy::Prefork app.psgi
+    start_server --port 8111 -- plackup --server Twiggy::Prefork app.psgi
 
 =back
 
